@@ -1,3 +1,47 @@
-body{
-    font-family: 'Roboto'; sans-serif;
+/* Kolory */
+:root {
+  --brand-color-white: white;
+  --brand-color-black: black;
+  --brand-color-blue: #2196f3;
+  --brand-color-grey: #757575;
+  --brand-background-black: black;
 }
+
+/* Style */
+body {
+  font-family: "Roboto";
+  background-color: white;
+  color: var(--brand-color-black);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.header:focus{
+    color: var(.brand-color-blue)
+}
+
+.header {
+  width: 1600px;
+  height: 80px;
+  
+}
+
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: black;
+}
+.brand-color-blue{
+    color: var(--brand-color-blue)
+}
+
+/* dokończyć header */
