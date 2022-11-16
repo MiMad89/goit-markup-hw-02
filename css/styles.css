@@ -9,7 +9,7 @@
 
 /* Style */
 body {
-  font-family: "Roboto";
+  font-family: "Roboto", ;
   background-color: white;
   color: var(--brand-color-black);
 }
@@ -21,18 +21,17 @@ body {
   text-decoration: none;
 }
 
-.header:focus{
-    color: var(.brand-color-blue)
+.header:focus {
+  color: var(.brand-color-blue);
 }
 
 .header {
   width: 1600px;
   height: 80px;
-  
 }
 
 .logo {
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -40,8 +39,24 @@ body {
   letter-spacing: 0.03em;
   color: black;
 }
-.brand-color-blue{
-    color: var(--brand-color-blue)
+.brand-color-blue {
+  color: var(--brand-color-blue);
 }
 
-/* dokończyć header */
+.header-list{
+  
+}
+
+.header-link{
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color:var(--brand-color-black)
+}
+.header-first{
+  color:var(--brand-color-blue)
+}
+
