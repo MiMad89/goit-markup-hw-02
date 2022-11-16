@@ -5,74 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio</title>
-    <link rel="stylesheet" href="./css/styles.css">
-    <link
-      href="https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!--END GOOGLE FONTS-->
   </head>
 
   <body>
-    <header class="header">
-      <a class="logo" href="./index.html"> <span class="brand-color-blue">Web</span>Studio</a>
+    <header class="box-bg">
+      <a class="logo-header" href="index.html"
+        >Web<span class="warning-box">Studio</span></a
+      >
       <nav>
-        <ul class="header-list">
-          <li class="header-item "><a class="header-link header-first" href="#">Agencja</a></li>
-          <li class="header-item"><a class="header-link" href="./portfolio.html">Portfolio</a></li>
-          <li class="header-item"><a class="header-link" href="#">Kontakt</a></li>
+        <ul>
+          <li><a class="agency" href="#">Agencja</a></li>
+          <li><a class="portfolio" href="./portfolio.html">Portfolio</a></li>
+          <li><a class="contact" href="#">Kontakt</a></li>
         </ul>
       </nav>
-      <ul class="contact">
-      <li class="contact-list">
-        <a class="contact-link header-first" href="mailto:info@devstudio.com">info@devstudio.com</a>
-      </li>
-      <li>
-        <a class="contact-link" href="tel:48111111111">+48 111 111 111</a>
-      </li>
-      </ul>
+      <a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <a class="tel" href="tel:48111111111">+48 111 111 111</a>
     </header>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
     <main>
       <!--Sekcja przycisk-->
-      <section>
-        <h1>Efektywne rozwiązania dla naszego biznesu</h1>
+      <section class="bg">
+        <h1 class="text-bg">Efektywne rozwiązania dla naszego biznesu</h1>
 
-        <button type="button">Zamów usługę</button>
+        <button class="text-button" type="button">Zamów usługe</button>
       </section>
 
       <!--Atuty-->
-      <section>
+      <section class="columns">
         <div>
           <ul>
-            <li>
-              <h3>Lorem Ipsum</h3>
+            <li class="column-1">
+              <h3 class="column-style">Lorem Ipsum</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li>
-              <h3>Lorem Ipsum</h3>
+            <li class="column-2">
+              <h3 class="column-style">Lorem Ipsum</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li>
-              <h3>Lorem Ipsum</h3>
+            <li class="column-3">
+              <h3 class="column-style">Lorem Ipsum</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li>
-              <h3>Lorem Ipsum</h3>
+            <li class="column-4">
+              <h3 class="column-style">Lorem Ipsum</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
@@ -83,12 +73,12 @@
       </section>
 
       <!--Czym się zajmujemy-->
-      <section>
-        <h2>Czym się zajmujemy</h2>
+      <section class="job">
+        <h2>Czym się zajmujemy</h2>
 
         <div>
           <ul>
-            <li>
+            <li class="classes1">
               <img
                 src="images/main/classes/classes1.jpg"
                 alt="pisanie kodu"
@@ -96,7 +86,7 @@
                 height="294"
               />
             </li>
-            <li>
+            <li class="classes2">
               <img
                 src="images/main/classes/classes2.jpg"
                 alt="telefon"
@@ -104,7 +94,7 @@
                 height="294"
               />
             </li>
-            <li>
+            <li class="classes3">
               <img
                 src="images/main/classes/classes3.jpg"
                 alt="tablet"
@@ -117,69 +107,77 @@
       </section>
 
       <!--Nasz zespół-->
-      <section>
+      <section class="team">
         <h2>Nasz zespół</h2>
 
-        <ul>
-          <li>
+        <ul class="wolker-list">
+          <li class="worker1">
             <img
               src="images/main/team/team1.jpg"
               alt="Product Designer"
-              width="406"
-              height="390"
+              width="270"
+              height="260"
             />
-            <h3>John Doe</h3>
+            <h4>John Doe</h4>
             <p>Product Designer</p>
           </li>
-          <li>
+          <li class="worker2">
             <img
               src="images/main/team/team2.jpg"
               alt="Frontend Developer"
-              width="406"
-              height="390"
+              width="270"
+              height="260"
             />
-            <h3>John Doe</h3>
+            <h4>John Doe</h4>
             <p>Frontend Developer</p>
           </li>
-          <li>
+          <li class="worker3">
             <img
               src="images/main/team/team3.jpg"
               alt="Marketing"
-              width="406"
-              height="390"
+              width="270"
+              height="260"
             />
-            <h3>John Doe</h3>
+            <h4>John Doe</h4>
             <p>Marketing</p>
           </li>
-          <li>
+          <li class="worker4">
             <img
               src="images/main/team/team4.jpg"
               alt="UI Designer"
-              width="406"
-              height="390"
+              width="270"
+              height="260"
             />
-            <h3>John Doe</h3>
+            <h4>John Doe</h4>
             <p>UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
 
-    <footer>
-      <!--Stopka-->
-      <a href="./index.html">Web Studio</a>
+    <!--Stopka-->
+    <footer class="footer-bg">
+      <a class="logo-footer" href="index.html"
+        >Web<span class="warning">Studio</span></a
+      >
 
-      <address>
+      <address class="contact-list">
         <ul>
-          <li>
-            <a href="https://goo.gl/maps/KhzzjTvSUYqTvvJo8" target="_blank"
-              >m. Warszawa, Aleje Jerozolimskie 21</a>
+          <li class="contact-item">
+            <a
+              class="contact-link contact-first"
+              href="https://goo.gl/maps/KhzzjTvSUYqTvvJo8"
+              target="_blank"
+              >m. Warszawa, Aleje Jerozolimskie 21</a
+            >
           </li>
-          <li>
-            <a href="mailto:info@example.com">info@example.com</a>
+          <li class="contact-item">
+            <a href="mailto:info@example.com" class="contact-link"
+              >info@example.com</a
+            >
           </li>
-          <li>
-            <a href="tel:48111111111">+48 111 111 111</a>
+          <li class="contact-item">
+            <a href="tel:48111111111" class="contact-link">+48 111 111 111</a>
           </li>
         </ul>
       </address>
