@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto";
+  font-family: 'Roboto';
 }
 /* Kolory */
 :root {
@@ -31,7 +31,7 @@ ul {
 }
 .logo-header {
   color: var(--brand-color-blue);
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -162,7 +162,7 @@ ul {
 }
 .logo-footer {
   color: var(--brand-color-blue);
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
@@ -173,7 +173,7 @@ ul {
   text-decoration: none;
   color: var(--brand-color-grey);
 }
-.contact-link[href*="com"] {
+.contact-link[href*='com'] {
   text-decoration-line: underline;
 }
 .contact-first {
