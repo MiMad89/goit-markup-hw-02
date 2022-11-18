@@ -17,7 +17,6 @@ body {
   text-decoration: none;
 }
 .box-bg {
-  width: 1600px;
   background: var(--brand-color-white);
 }
 .warning-box {
@@ -46,28 +45,32 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-
   color: var(--brand-color-black);
 }
-.menu-first {
-  color: var(--brand-color-blue);
+.menu-item:hover{
+  color: var(--brand-color-blue)
 }
-
 .mail {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: var(--brand-color-blue);
+  color: var(--brand-color-black);
 }
-.box-bg > .tel {
+.mail:hover{
+  color: var(--brand-color-blue)
+}
+.tel {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--brand-color-grey);
+}
+.tel:hover{
+  color: var(--brand-color-blue)
 }
 /* Sekcja przycisk */
 .bg {
@@ -103,7 +106,7 @@ ul {
   letter-spacing: 0.03em;
   color: var(--brand-color-grey);
 }
-.column-style {
+.column-mane {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -113,7 +116,7 @@ ul {
   color: var(--brand-color-black);
 }
 /* Czym się zajmujemy */
-.section-style {
+.section-mane {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.166;
@@ -129,7 +132,7 @@ ul {
 .team {
   background: #f5f4fa;
 }
-.team-style {
+.team-mane {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.187;
@@ -173,6 +176,9 @@ ul {
   text-decoration: none;
   color: var(--brand-color-grey);
 }
+.contact-link:hover{
+  color: var(--brand-color-blue)
+}
 .contact-link[href*='com'] {
   text-decoration-line: underline;
 }
@@ -191,6 +197,7 @@ ul {
   color: var(--brand-color-black);
   border: none;
   cursor: pointer;
+  /* border-radius: 4px; */
 }
 .buttons-first {
   font-weight: 500;
@@ -202,7 +209,7 @@ ul {
   border: none;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
+  /* border-radius: 4px; */
 }
 .mail-link {
   font-weight: 500;
@@ -212,14 +219,17 @@ ul {
   text-decoration: none;
   color: var(--brand-color-grey);
 }
+.mail-link:hover{
+  color: var(--brand-color-blue);
+}
 .portfolio-list {
   background: var(--brand-color-white);
   text-align: left;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
+  /* border-radius: 0px 0px 4px 4px; */
 }
-.portfolio-style {
+.portfolio-mane {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
