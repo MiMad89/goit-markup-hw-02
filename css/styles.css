@@ -47,8 +47,8 @@ ul {
   text-decoration: none;
   color: var(--brand-color-black);
 }
-.menu-item:hover{
-  color: var(--brand-color-blue)
+.menu-item:hover {
+  color: var(--brand-color-blue);
 }
 .mail {
   font-weight: 500;
@@ -58,8 +58,8 @@ ul {
   text-decoration: none;
   color: var(--brand-color-grey);
 }
-.mail:hover{
-  color: var(--brand-color-blue)
+.mail:hover {
+  color: var(--brand-color-blue);
 }
 .tel {
   font-weight: 500;
@@ -69,8 +69,8 @@ ul {
   text-decoration: none;
   color: var(--brand-color-grey);
 }
-.tel:hover{
-  color: var(--brand-color-blue)
+.tel:hover {
+  color: var(--brand-color-blue);
 }
 /* Sekcja przycisk */
 .bg {
@@ -176,8 +176,8 @@ ul {
   text-decoration: none;
   color: var(--brand-color-grey);
 }
-.contact-link:hover{
-  color: var(--brand-color-blue)
+.contact-link:hover {
+  color: var(--brand-color-blue);
 }
 .contact-link[href*='com'] {
   text-decoration-line: underline;
@@ -219,7 +219,7 @@ ul {
   text-decoration: none;
   color: var(--brand-color-grey);
 }
-.mail-link:hover{
+.mail-link:hover {
   color: var(--brand-color-blue);
 }
 .portfolio-list {
