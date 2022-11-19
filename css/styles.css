@@ -8,6 +8,7 @@ body {
   --brand-color-blue: #2196f3;
   --brand-color-grey: #757575;
   --brand-background-black: black;
+  --brand-background-blue: #2196f3;
 }
 
 * {
@@ -25,7 +26,7 @@ body {
 .warning {
   color: var(--brand-color-white);
 }
-ul {
+.list {
   list-style-type: none;
 }
 .logo-header {
@@ -93,6 +94,7 @@ ul {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
   background: var(--brand-color-blue);
   color: var(--brand-color-white);
   border: var(--brand-color-blue);
@@ -188,6 +190,9 @@ ul {
 
 /* PORTFOLIO */
 
+.buttons-text:hover {
+  background-color: var(--brand-background-blue);
+}
 .buttons-text {
   font-weight: 500;
   font-size: 16px;
@@ -197,18 +202,9 @@ ul {
   color: var(--brand-color-black);
   border: none;
   cursor: pointer;
-  /* border-radius: 4px; */
-}
-.buttons-first {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.625;
-  text-align: center;
-  letter-spacing: 0.03em;
-  background: var(--brand-color-blue);
-  border: none;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+
   /* border-radius: 4px; */
 }
 .mail-link {
