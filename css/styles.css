@@ -181,11 +181,11 @@ body {
 .contact-link:hover {
   color: var(--brand-color-blue);
 }
-.contact-link[href*='com'] {
-  text-decoration-line: underline;
-}
 .contact-first {
   color: var(--brand-color-white);
+}
+.contact-second{
+  text-decoration-line: underline
 }
 
 /* PORTFOLIO */
