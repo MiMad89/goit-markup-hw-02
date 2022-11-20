@@ -192,6 +192,7 @@ body {
 
 .buttons-text:hover {
   background-color: var(--brand-background-blue);
+  color: var(--brand-color-white)
 }
 .buttons-text {
   font-weight: 500;
